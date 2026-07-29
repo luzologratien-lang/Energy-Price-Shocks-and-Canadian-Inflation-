@@ -36,7 +36,7 @@ In contrast, core inflation exhibits only a very weak response, with the confide
 
 Similarly, the response of the policy rate is statistically insignificant. This suggests that the Bank of Canada does not react directly to temporary energy price shocks. Instead, the results are consistent with the view that the central bank looks through transitory energy price fluctuations when they do not generate persistent increases in underlying inflation.
 
-
+![FEVD](figures/FEVD.png)
 The FEVD results confirm the IRF findings.
 
 Energy prices are mostly explained by their own shocks, which is expected.
