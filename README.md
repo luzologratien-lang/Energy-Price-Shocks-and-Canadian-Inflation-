@@ -14,10 +14,11 @@ To explore this question, I conducted an empirical analysis using a Structural V
 
 The analysis is based on four monthly Canadian macroeconomic variables covering the period from January 1999 to December 2025:
 
-Energy Prices: Statistics Canada, Table 18-10-0004-01 (formerly CANSIM 326-0020).
-Headline Inflation: Bank of Canada’s Key Inflation Indicators dashboard.
-Core Inflation: Bank of Canada’s Key Inflation Indicators dashboard.
-Policy Rate: Bank of Canada’s overnight rate obtained from FRED (Federal Reserve Bank of St. Louis), series IRSTCB01CAM156N.
+- Energy Prices: Statistics Canada, Table 18-10-0004-01 (formerly CANSIM 326-0020).
+- Headline Inflation: Bank of Canada’s Key Inflation Indicators dashboard.
+- Core Inflation: Bank of Canada’s Key Inflation Indicators dashboard.
+- Policy Rate: Bank of Canada’s overnight rate obtained from FRED (Federal Reserve Bank of St. Louis), series IRSTCB01CAM156N.
+
 After collecting the data from these sources, I cleaned, harmonized, and combined them into a single dataset.
 
 ## 3. Methodology
@@ -54,3 +55,12 @@ Overall, the empirical evidence supports the look-through hypothesis : energy pr
 This framework may help explain why the Bank of Canada has kept its policy rate unchanged since February 2026, despite higher gasoline and energy prices associated with recent geopolitical tensions in the Middle East.
 
 The complete dataset and R code used in this analysis are available on my website for anyone interested in reproducing or extending the results.
+
+## 6. Technical Details
+
+- Programming Language: R
+- Packages: tidyverse, ggplot2, dplyr, vars, series
+- Data Source: Banque of Canada, Statistics Canada, Federal Reserve Bank of St. Louis
+- Frequency: Monthly
+- Period: January 1999 – December 2025
+
