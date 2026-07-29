@@ -59,7 +59,7 @@ This framework may help explain why the Bank of Canada has kept its policy rate 
 ## 6. Technical Details
 
 - Programming Language: R
-- Packages: tidyverse, ggplot2, dplyr, vars, series
+- Packages: tidyverse, ggplot2, dplyr, vars, tseries
 - Data Source: Banque of Canada, Statistics Canada, Federal Reserve Bank of St. Louis
 - Frequency: Monthly
 - Period: January 1999 – December 2025
