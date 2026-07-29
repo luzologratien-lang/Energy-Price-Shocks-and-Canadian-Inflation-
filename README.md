@@ -54,7 +54,7 @@ Overall, the empirical evidence supports the look-through hypothesis : energy pr
 
 This framework may help explain why the Bank of Canada has kept its policy rate unchanged since February 2026, despite higher gasoline and energy prices associated with recent geopolitical tensions in the Middle East.
 
-The complete dataset and R code used in this analysis are available on my website for anyone interested in reproducing or extending the results.
+
 
 ## 6. Technical Details
 
@@ -64,3 +64,6 @@ The complete dataset and R code used in this analysis are available on my websit
 - Frequency: Monthly
 - Period: January 1999 – December 2025
 
+The complete resources used in this analysis are publicly available for reproduction or extension:
+* **Dataset:** [View Raw Data (`data/`)](data/)
+* **R Code:** [Inspect Script (`script.R`)](script.R)
